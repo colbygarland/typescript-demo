@@ -1,0 +1,8 @@
+{
+  "name": "typescript-demo",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@types/react": "^17.0.16"
+  }
+}
