@@ -5,9 +5,6 @@ export interface User {
 }
 const user: User = {
   // TODO
-  name: 'Colby',
-  age: 26,
-  hobbies: ['camping', 'etc'],
 };
 
 // Compositional Types
@@ -62,9 +59,7 @@ class Mutant {
   }
 }
 
-const Wolverine = new Mutant('Logan', 'healing factor');
-console.log(Wolverine.);
-console.log(Wolverine.);
+// TODO: create some mutants
 
 // Satisfy TS
 export {};

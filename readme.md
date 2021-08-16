@@ -26,3 +26,4 @@ This is a simple demo to show how TypeScript works.
 5. [Autocomplete](./5-autocomplete.ts)
 6. [Enums](./6-enums.ts)
 7. [Error/warning helpers](./7-errors-warnings.ts)
+8. [Type definition files](./8-type-definition-files.d.ts)

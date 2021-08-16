@@ -1,3 +1,5 @@
+import { User } from './2-defining-own-types';
+
 function getAge(user: User): number {
   // TODO
 }
