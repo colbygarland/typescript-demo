@@ -5,6 +5,9 @@ export interface User {
 }
 const user: User = {
   // TODO
+  name: 'Colby',
+  age: 26,
+  hobbies: ['camping', 'etc'],
 };
 
 // Compositional Types
@@ -19,13 +22,22 @@ interface InfinityGauntlet {
 }
 const gauntlet: InfinityGauntlet = {};
 
-function hurlDaughterOffCliff() {
-  console.log('I am prepared');
-}
 function addSoulGemToGauntlet(soulGem: Gem) {
-  hurlDaughterOffCliff();
   gauntlet.soul = soulGem;
 }
+
+// Optional types
+interface IronManSuit {
+  helmet?: boolean;
+  arms?: boolean;
+  legs?: boolean;
+  chest?: boolean;
+  feet?: boolean;
+  arcReactor: boolean;
+}
+const markV: IronManSuit = {
+  // TODO
+};
 
 // Unions
 type Avenger = 'Iron Man' | 'Captain America' | 'Hulk' | 'Black Widow' | 'Hawkeye' | 'The Vision' | 'Spider-Man';
