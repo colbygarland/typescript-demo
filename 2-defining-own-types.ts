@@ -51,5 +51,20 @@ const avengers: AvengerArray = [
   // TODO
 ];
 
+// JS Classes
+class Mutant {
+  name: string;
+  power: string;
+
+  constructor(name: string, power: string) {
+    this.name = name;
+    this.power = power;
+  }
+}
+
+const Wolverine = new Mutant('Logan', 'healing factor');
+console.log(Wolverine.);
+console.log(Wolverine.);
+
 // Satisfy TS
 export {};
