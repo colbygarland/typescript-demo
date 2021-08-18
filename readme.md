@@ -23,7 +23,7 @@ This is a simple demo to show how TypeScript works.
 2. [Define your own types](./2-defining-own-types.ts)
 3. [Return types](./3-return-types.ts)
 4. [Any/Unknown](./4-any-unknown.ts)
-5. [Autocomplete](./5-autocomplete.ts)
+5. [Autocomplete](./5-autocomplete.tsx)
 6. [Enums](./6-enums.ts)
 7. [Error/warning helpers](./7-errors-warnings.ts)
 8. [Type definition files](./8-type-definition-files.d.ts)
