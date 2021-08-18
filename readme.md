@@ -27,3 +27,5 @@ This is a simple demo to show how TypeScript works.
 6. [Enums](./6-enums.ts)
 7. [Error/warning helpers](./7-errors-warnings.ts)
 8. [Type definition files](./8-type-definition-files.d.ts)
+9. [Generics](./9-generics.ts)
+10. [Inheritance](./10-inheritance.ts)
